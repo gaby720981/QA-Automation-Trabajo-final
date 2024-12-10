@@ -1,4 +1,4 @@
-QA Automation | Trabajo Final
+# QA Automation | Trabajo Final
 
 Descripción
 Este proyecto corresponde al trabajo final del curso de QA Automation. Su objetivo es aplicar los conceptos aprendidos durante el curso, desarrollando un plan de pruebas, automatizando casos específicos con Cypress y gestionando incidentes detectados en Trello.
@@ -32,3 +32,4 @@ Repetición de las acciones realizadas con el usuario 1.
 
 Uso de Trello para documentar los defectos o mejoras detectados.
 Utilización del template de reporte de bugs/mejoras provisto por el curso.
+
