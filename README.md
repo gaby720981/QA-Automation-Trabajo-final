@@ -18,15 +18,15 @@ El plan de pruebas describe los casos a automatizar, las acciones a realizar y l
 Se implementaron los siguientes casos de prueba automatizados en el archivo myTestSaucedemo.cy.js para el sitio saucedemo.com:
 
 Usuario 1: standard_user
-Login.
-Agregar productos al carrito.
-Realizar el checkout.
-Validar el éxito del proceso de compra.
-Cerrar sesión.
+- **Login**
+- **Agregar productos al carrito**
+- **Realizar el checkout**
+- **Validar el éxito del proceso de compra**
+- **Cerrar sesión**
 
 Usuario 2: problem_user
-Login.
-Repetición de las acciones realizadas con el usuario 1.
+- **Login**
+- **Repetición de las acciones realizadas con el usuario 1.**
 
 ## Gestión de Incidentes
 
