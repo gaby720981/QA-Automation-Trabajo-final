@@ -6,7 +6,6 @@ Este proyecto corresponde al trabajo final del curso de QA Automation. Su objeti
 ## Requisitos Previos
 
 Cypress instalado: Es necesario tener instalado Cypress para ejecutar los tests automatizados.
-Herramienta de gestión de incidencias: Trello será utilizado para reportar defectos o mejoras detectadas.
 
 # Actividades Realizadas
 
