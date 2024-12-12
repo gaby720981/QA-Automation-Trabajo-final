@@ -7,6 +7,9 @@ module.exports = defineConfig({
     },
   },
 
-  chromeWebSecurity: false
-  
+  chromeWebSecurity: false,
+  video: true,
+  screenshotOnRunFailure: true, 
+  videosFolder: "cypress/videos", 
+  screenshotsFolder: "cypress/screenshots",
 });
