@@ -26,11 +26,22 @@
 
 // cypress/support/commands.js
 
-Cypress.Commands.add('login', (username, password) => {
-    cy.get('[placeholder="Username"]').type(username);
-    cy.get('[data-test="password"]').type(password);
+Cypress.Commands.add('loginIncorrectPass', (username, password) => {
+
+    cy.intercept('POST', 'https://submit.backtrace.io/UNIVERSE/TOKEN/json').as('testAPI')
+    cy.get('[placeholder="Username"]').clear().type(username);
+    cy.get('[data-test="password"]').clear().type(password);
+    cy.get('#login-button').click();
+    cy.wait('@testAPI').its('response.statusCode').should('eq', 503)
+
+});
+
+Cypress.Commands.add('loginOk', (username, password) => {
+    cy.get('[placeholder="Username"]').clear().type(username);
+    cy.get('[data-test="password"]').clear().type(password);
     cy.get('#login-button').click();
 });
+
 
 Cypress.Commands.add('addProductsToCart', (productIndices) => {
     productIndices.forEach(index => {
@@ -43,8 +54,11 @@ Cypress.Commands.add('checkout', (firstName, lastName, postalCode) => {
     cy.get('.shopping_cart_link').click();
     cy.contains('Checkout').click();
     cy.get('[data-test="firstName"]').type(firstName);
+    cy.wait(1000);
     cy.get('[data-test="lastName"]').type(lastName);
+    cy.wait(1000);
     cy.get('[data-test="postalCode"]').type(postalCode);
+    cy.wait(1000);
     cy.get('[data-test="continue"]').click();
     cy.get('[data-test="finish"]').click();
 });
