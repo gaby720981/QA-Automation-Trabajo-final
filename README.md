@@ -33,3 +33,21 @@ Usuario 2: problem_user
 Uso de Trello para documentar los defectos o mejoras detectados.
 Utilización del template de reporte de bugs/mejoras provisto por el curso.
 
+## Ejecución de Tests  
+
+Existen dos formas de ejecutar los tests:  
+
+- **Abrir la interfaz de Cypress**  
+  1. Ejecuta el siguiente comando para abrir la interfaz gráfica de Cypress:  
+     ```bash
+     npx cypress open
+     ```  
+  2. Selecciona el navegador deseado.  
+  3. Haz clic en el archivo de prueba `myTestSaucedemo.cy.js`.  
+
+- **Modo Headless**  
+  Para ejecutar los tests en modo headless:  
+  ```bash
+  npx cypress run
+  ```
+
