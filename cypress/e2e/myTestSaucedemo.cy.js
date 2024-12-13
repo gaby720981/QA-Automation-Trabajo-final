@@ -1,9 +1,11 @@
+
 describe('SauceDemo - QA Automation', { testIsolation: false }, () => {
 
     //TESTS USER 1
 
     it('Visit the page', () => {
         cy.visit('https://www.saucedemo.com');
+        
     });
 
     it('Login User 1', () => {
@@ -11,7 +13,7 @@ describe('SauceDemo - QA Automation', { testIsolation: false }, () => {
         cy.loginOk('standard_user', 'secret_sauce');
     });
 
-    it('Add products User 1', () => {
+    it('Add products to cart User 1', () => {
         cy.addProductsToCart([0, 1, 2])
     });
 
@@ -31,7 +33,7 @@ describe('SauceDemo - QA Automation', { testIsolation: false }, () => {
         cy.loginOk('problem_user', 'secret_sauce');
     });
 
-    it('Add products User 2', () => {
+    it('Add products to cart User 2', () => {
         cy.addProductsToCart([0, 1, 2]);
     });
 
