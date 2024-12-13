@@ -3,9 +3,11 @@
 
 Este proyecto corresponde al trabajo final del curso de QA Automation. Su objetivo es aplicar los conceptos aprendidos durante el curso, desarrollando un plan de pruebas, automatizando casos específicos con Cypress y gestionando incidentes detectados en Trello.
 
-## Requisitos Previos
+## Herramientas Utilizadas  
 
-Cypress instalado: Es necesario tener instalado Cypress para ejecutar los tests automatizados.
+- [Cypress](https://www.cypress.io/): Framework para pruebas end-to-end.  
+- [Mochawesome](https://github.com/adamgruber/mochawesome): Generador de reportes en formato HTML y JSON para pruebas automatizadas.  
+- [Trello](https://trello.com/): Gestión de incidentes y reportes.
 
 # Actividades Realizadas
 
