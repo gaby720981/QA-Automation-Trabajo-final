@@ -31,8 +31,9 @@ Usuario 2: problem_user
 
 ## Gestión de Incidentes
 
-Uso de Trello para documentar los defectos o mejoras detectados.
-Utilización del template de reporte de bugs/mejoras provisto por el curso.
+Uso de Trello para documentar los bugs encontrados.
+Puedes acceder desde el siguiente enlace:  
+[Bugs](https://trello.com/b/ZVG4mViu/qa-trabajo-final)
 
 ## Ejecución de Tests  
 
