@@ -10,9 +10,9 @@ Este proyecto corresponde al trabajo final del curso de QA Automation. El objeti
 
 # Actividades Realizadas
 
-## Plan de Pruebas  
-El plan de pruebas describe los casos a automatizar, las acciones a realizar y los resultados esperados. Puedes acceder al documento detallado desde el siguiente enlace:  
-- [Plan de Pruebas - Excel](https://docs.google.com/spreadsheets/d/18J58DFD9bDtqzA9eknBB6JO8qrG_eQl8/edit?usp=sharing&ouid=103850394186257193764&rtpof=true&sd=true)  
+## Planilla de casos de prueba
+Describe los casos a automatizar, las acciones a realizar y los resultados esperados. Puedes acceder al documento detallado desde el siguiente enlace:  
+- [Casos de prueba - Excel](https://docs.google.com/spreadsheets/d/18J58DFD9bDtqzA9eknBB6JO8qrG_eQl8/edit?usp=sharing&ouid=103850394186257193764&rtpof=true&sd=true)  
 
 ## Automatización de Pruebas
 
